@@ -1,0 +1,51 @@
+@import "bootstrap";
+
+#header, #home {
+    width: 864px;
+    margin: 0 auto;
+  }
+
+  #control {
+    margin: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .card {
+    width: 196px;
+    height: 275px;
+    margin: 10px;
+    margin-bottom: 50px;
+    float: left;
+    position: relative;
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.1) 0px 1px 1px;
+  }
+
+  .card h3 {
+    margin: -17px;
+    color: #555;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 1px #eee;
+  }
+
+  @media screen and (max-width: 864px) {
+    #header, #home {
+      width: 648px;
+    }
+  }
+
+  @media screen and (max-width: 648px) {
+    #header, #home {
+      width: 432px;
+    }
+  }
+
+  @media screen and (max-width: 432px) {
+    #header, #home {
+      width: 216px;
+    }
+  }
